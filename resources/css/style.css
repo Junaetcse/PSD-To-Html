@@ -1,0 +1,102 @@
+* {
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited,
+.btn {
+    background: #000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+header {
+    background: linear-gradient(rgba(135,80,156,0.9),rgba(135,80,156,0.9)), url(/resources/ing/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+}
+
+.logo {
+    height: 35px;
+    width: auto;
+    margin-top: 35px;
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 40px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+
+.main-nav li:first-child{
+    margin-left: 0px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background:rgba(100, 58, 121, 0);
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    transition: .5s;
+    border-radius: 3px;
+    
+}
+
+.main-nav  li:hover a:link,
+.main-nav  li:hover a:visited{
+    background: rgba(100, 58, 121, 1);
+    padding: 5px;
+
+}
+
+.active{
+    background: rgba(100, 58, 121, 1);
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    text-align: center;
+}
+
+.btn-hero:link,.btn-hero:visited {
+    background: #eb7d4b;
+    border-color: #c86a40;
+}
