@@ -4,17 +4,25 @@
  box-sizing: border-box;
 }
 
+body{
+    text-rendering: optimizeLegibility;
+}
+
+html{
+    font-size: 62.5%;
+}
+
 ul li{
     list-style-type: none;
 }
 
 h1{
-    font-size: 42px;
+    font-size: 4.2rem;
     color: #ffffff;
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 114rem;
     margin: 0 auto;
 }
 
@@ -24,11 +32,12 @@ h1{
     background: #000;
     color: #ffffff;
     text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 3px;
-    border: 1px solid gray;
+    padding: 1.5rem 3rem;
+    border-radius: .3rem;
+    border: .1rem solid gray;
     text-transform: uppercase;
     display: inline-block;
+    font-size: 1.6rem;
 
 }
 
@@ -42,25 +51,25 @@ header {
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
     width: auto;
-    margin-top: 35px;
+    margin-top: 3.5rem;
     float: left;
 }
 
 .main-nav{
     float: right;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 
 .main-nav li{
     display: inline-block;
-    margin-left: 15px;
-    border-radius: 3px;
+    margin-left: 1.5rem;
+    border-radius: .3rem;
 }
 
 .main-nav li:first-child{
-    margin-left: 0px;
+    margin-left: .0rem;
 }
 
 .main-nav li a:link,
@@ -69,18 +78,18 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     background:rgba(100, 58, 121, 0);
-    padding: 5px;
+    padding: .5rem;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     transition: .5s;
-    border-radius: 3px;
+    border-radius: .3rem;
     
 }
 
 .main-nav  li:hover a:link,
 .main-nav  li:hover a:visited{
     background: rgba(100, 58, 121, 1);
-    padding: 5px;
+    padding: .5rem;
 
 }
 
