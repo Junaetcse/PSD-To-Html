@@ -12,6 +12,7 @@ body {
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 ul li {
@@ -219,14 +220,13 @@ header {
     border-radius: 50%;
 }
 
-.team-section h3 {
-    margin-bottom: .5rem;
-}
 
 .role {
     color: #30bae7;
     font-size: 1.6rem;
     text-transform: capitalize;
+    margin-top: .5rem;
+    display: inline-block;
 }
 
 .team-section .box p {
