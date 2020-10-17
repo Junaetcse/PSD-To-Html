@@ -272,7 +272,7 @@ header {
 }
 
 .social-link ul li a:hover i::before {
-    background: #393939;
+    background: #888484;
     transition: (360deg);
     transform: rotate(360deg);
 }
@@ -454,7 +454,8 @@ svg.ui-ux circle {
     background: linear-gradient(rgba(60, 84, 153, .9), rgba(60, 84, 153, .9)), url(/resources/images/contact-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 30%;
+    background-position: center 20%;
+    background-attachment: fixed;
 }
 
 .contact-section h2 {
@@ -500,4 +501,31 @@ svg.ui-ux circle {
 
 .btn-submit:hover {
     cursor: pointer;
+}
+
+
+/* 
+Footer Section */
+
+.footer-section {
+    background: #344b8e;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-section li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+.footer-section li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 2.4rem;
+}
+
+.footer-section li a:hover {
+    color: #30bae7;
 }
