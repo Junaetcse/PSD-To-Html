@@ -30,6 +30,7 @@
                     <li><a href="#team">team</a></li>
                     <li><a href="#skill">skill</a></li>
                     <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#testimonial">testimonial</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
             </div>
@@ -146,67 +147,73 @@
 
     <!-- Skill sections -->
     <section class="skill-section" id="skill">
-            <div class="row">
-                <h2>WE GOT SKILLS!</h2>
-                <p class="little-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+        <div class="row">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="little-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+                <h3>WEB DESIGN</h3>
             </div>
-            <div class="row">
-                <div class="col span_1_of_4 box">
-                    <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
-                    </svg>
-                    <h3>WEB DESIGN</h3>
-                </div>
-                <div class="col span_1_of_4 box">
-                    <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
-                    </svg>
-                    <h3>Html / CSS </h3>
-                </div>
-                <div class="col span_1_of_4 box">
-                    <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
-                    </svg>
-                    <h3>Graphic Design</h3>
-                </div>
-                <div class="col span_1_of_4 box">
-                    <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
-                    </svg>
-                    <h3>UI / UX</h3>
-                </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                </svg>
+                <h3>Html / CSS </h3>
             </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                </svg>
+                <h3>Graphic Design</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                </svg>
+                <h3>UI / UX</h3>
+            </div>
+        </div>
     </section>
 
     <!-- Portfolio section -->
 
-     <section class="portfolio-section" id="portfolio">
-         <div class="row">
-             <h2>OUR PORTFOLIO</h2>
-             <p class="little-description">
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam
-             </p>
-         </div>
-         <div class="row">
-             <div class="portfolio-filter">
-                 <button type="button" data-filter="all">All</button>
-                 <button type="button" data-filter=".web">Web</button>
-                 <button type="button" data-filter=".apps">Apps</button>
-                 <button type="button" data-filter=".icon">Icons</button>
-             </div>
-         </div>
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h2>OUR PORTFOLIO</h2>
+            <p class="little-description">
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia
+                non numquam
+            </p>
+        </div>
+        <div class="row">
+            <div class="portfolio-filter">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".web">Web</button>
+                <button type="button" data-filter=".apps">Apps</button>
+                <button type="button" data-filter=".icon">Icons</button>
+            </div>
+        </div>
 
-         <div class="row container">
+        <div class="row container">
             <div class="col span_1_of_2 mix apps box">
                 <img src="/resources/images/works-1.png" alt="" class="portfolio-image">
                 <h4>ISOMETRIC PERSPECTIVE MOCK-UP</h4>
@@ -223,14 +230,69 @@
                 <img src="/resources/images/works-4.png" alt="" class="portfolio-image">
                 <h4>ISOMETRIC PERSPECTIVE MOCK-UP</h4>
             </div>
-         </div>
+        </div>
 
-         <!--
+        <!--
              <div class="row">
                  <a href="#" class="btn btn-load-more"> Load More Project</a>
              </div>
          -->
-     </section>
+    </section>
+
+
+    <!-- Testimonial section -->
+    <section class="testimonial" id="testimonial">
+        <div class="row">
+            <h2>WHAT POEPLE SAY ABOUT US</h2>
+            <p class="little-description">Our clients love us!</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_2 box">
+                <div class="client-photo">
+                    <img src="/resources/images/1.jpg" alt="">
+                </div>
+                <div class="client-review">
+                    <p>Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                        scelerisque.”</p>
+                    <h3>CHANEL IMAN</h3>
+                    <span class="role">CEO Of Pinterest</span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                <div class="client-photo">
+                    <img src="/resources/images/2.jpg" alt="">
+                </div>
+                <div class="client-review">
+                    <p>Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                        scelerisque.”</p>
+                    <h3>CHANEL IMAN</h3>
+                    <span class="role">CEO Of Pinterest</span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                <div class="client-photo">
+                    <img src="/resources/images/3.jpg" alt="">
+                </div>
+                <div class="client-review">
+                    <p>Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                        scelerisque.”</p>
+                    <h3>CHANEL IMAN</h3>
+                    <span class="role">CEO Of Pinterest</span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                <div class="client-photo">
+                    <img src="/resources/images/4.jpg" alt="">
+                </div>
+                <div class="client-review">
+                    <p>Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                        scelerisque.”</p>
+                    <h3>CHANEL IMAN</h3>
+                    <span class="role">CEO Of Pinterest</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Jquery file -->
