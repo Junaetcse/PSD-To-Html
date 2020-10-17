@@ -160,6 +160,28 @@ header {
     padding: .5rem;
 }
 
+.main-nav li.active a {
+    background: rgba(100, 58, 121, 1);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(135, 80, 156, 1);
+    padding: 1rem 0;
+    box-shadow: rgba(255, 255, 255, .9);
+}
+
+.sticky .logo {
+    margin-top: .3rem;
+}
+
+.sticky .main-nav {
+    margin-top: .3rem;
+}
+
 .active {
     background: rgba(100, 58, 121, 1);
 }
