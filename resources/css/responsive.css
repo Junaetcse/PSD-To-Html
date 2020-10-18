@@ -2,12 +2,6 @@
     .row {
         margin: 0 7rem;
     }
-    .main-nav {
-        display: none;
-    }
-    .mobile-menu span {
-        display: block;
-    }
     html {
         font-size: 60%;
     }
@@ -39,6 +33,12 @@
 }
 
 @media only screen and (max-width:768px) {
+    .main-nav {
+        display: none;
+    }
+    .mobile-menu span {
+        display: block;
+    }
     .little-description {
         width: 100%;
         margin-left: 0;
@@ -70,5 +70,8 @@
     }
     .portfolio-filter button {
         margin: .3rem 0;
+    }
+    .mobile-menu {
+        margin-top: 3rem;
     }
 }
