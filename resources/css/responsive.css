@@ -5,6 +5,9 @@
     .main-nav {
         display: none;
     }
+    .mobile-menu span {
+        display: block;
+    }
     html {
         font-size: 60%;
     }
