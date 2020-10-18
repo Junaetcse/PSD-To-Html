@@ -1,0 +1,71 @@
+@media only screen and (max-width:1024px) {
+    .row {
+        margin: 0 7rem;
+    }
+    .main-nav {
+        display: none;
+    }
+    html {
+        font-size: 60%;
+    }
+    .hero-text-box {
+        width: 70%;
+    }
+    .client-photo,
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    h1 {
+        font-size: 3rem;
+    }
+    header {
+        height: 70vh;
+    }
+    .row {
+        margin: 0 3rem;
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .portfolio-filter button {
+        padding: .8rem 1.3rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .portfolio-filter button {
+        margin: .3rem 0;
+    }
+}
